@@ -1,4 +1,4 @@
-function palindrome(str){
+const palindrome = (str) => {
     if(str.toLowerCase() === str.toLowerCase().split('').reverse().join('')){
         return true;
     }

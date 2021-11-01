@@ -1,4 +1,4 @@
-function checkStringsAnagram(a, b) {
+const checkStringsAnagram = (a, b) => {
     if(a.length !== b.length){
        console.log("False");
        return
